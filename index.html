@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/buttons.css">
@@ -15,6 +18,10 @@
     <link rel="stylesheet" href="css/footer.css">
     <title>Reusable Component Library Demo</title>
 </head>
+
+<div id="preloader">
+    <div class="loader"></div>
+</div>
 
 <body>
     <!-- Navbar -->
@@ -147,6 +154,13 @@
         <script src="js/accordian.js"></script>
         <script src="js/cookie-banner.js"></script>
         <script src="js/modal.js"></script>
+        <script>
+            window.addEventListener('load', function() {
+                const preloader = document.getElementById('preloader');
+                preloader.style.display = 'none';
+                document.body.style.visibility = 'visible';
+            });
+        </script>
 </body>
 
 </html>
