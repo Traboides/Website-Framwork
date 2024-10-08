@@ -1,0 +1,81 @@
+  /* navbar.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  
+  .navbar .brand-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Remove hover effect for the brand link */
+  .navbar .brand-link:hover {
+    color: #ffffff;
+  }
+  
+  .nav-toggle {
+    display: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 1rem 0;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links a {
+      padding: 1rem;
+      border-bottom: 1px solid #444;
+      width: 100%;
+    }
+  
+    .nav-links a:last-child {
+      border-bottom: none;
+    }
+  }
