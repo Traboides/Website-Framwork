@@ -1,5 +1,5 @@
-  /* modal.css */
-  .modal {
+/* modal.css */
+.modal {
     display: none;
     position: fixed;
     top: 0;
@@ -12,14 +12,14 @@
     transition: opacity 0.3s ease;
     opacity: 0;
     z-index: 10;
-  }
-  
-  .modal.open {
+}
+
+.modal.open {
     display: flex;
     opacity: 1;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background: #ffffff;
     border-radius: 12px;
     max-width: 500px;
@@ -27,9 +27,9 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
-  }
-  
-  .modal-header {
+}
+
+.modal-header {
     padding: 1rem;
     background: #f1f1f1;
     border-bottom: 1px solid #ddd;
@@ -39,24 +39,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .modal-close {
+}
+
+.modal-close {
     background: transparent;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-  }
-  
-  .modal-body {
+}
+
+.modal-body {
     padding: 1.5rem;
     color: #555;
     line-height: 1.5;
-  }
-  
-  .modal-footer {
+}
+
+.modal-footer {
     padding: 0.5rem 1rem;
     border-top: 1px solid #ddd;
     text-align: right;
     background: #f1f1f1;
-  }
+}

@@ -1,5 +1,5 @@
-  /* cookie-banner.css */
-  .cookie-banner {
+/* cookie-banner.css */
+.cookie-banner {
     position: fixed;
     bottom: 0;
     left: 0;
@@ -15,18 +15,18 @@
     z-index: 100;
     transition: transform 0.3s ease;
     transform: translateY(100%);
-  }
-  
-  .cookie-banner.show {
+}
+
+.cookie-banner.show {
     transform: translateY(0);
-  }
-  
-  .cookie-banner__text {
+}
+
+.cookie-banner__text {
     font-size: 0.9rem;
     margin-right: 1rem;
-  }
-  
-  .cookie-banner__buttons {
+}
+
+.cookie-banner__buttons {
     display: flex;
     gap: 0.5rem;
-  }
+}

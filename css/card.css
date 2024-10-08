@@ -1,5 +1,5 @@
-  /* cards.css */
-  .card {
+/* cards.css */
+.card {
     border: 1px solid #ddd;
     padding: 1.5rem;
     border-radius: 12px;
@@ -7,26 +7,26 @@
     transition: box-shadow 0.3s, transform 0.3s;
     background-color: #ffffff;
     margin: 1rem 0;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     /* transform: translateY(-5px); */
-  }
-  
-  .card-header {
+}
+
+.card-header {
     font-weight: bold;
     margin-bottom: 1rem;
     font-size: 1.25rem;
     color: #333;
-  }
-  
-  .card-content {
+}
+
+.card-content {
     margin-bottom: 1rem;
     color: #555;
     line-height: 1.5;
-  }
-  
-  .card-footer {
+}
+
+.card-footer {
     text-align: right;
-  }
+}
